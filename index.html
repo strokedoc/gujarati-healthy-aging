@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="gu" data-lang="gu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Healthy Aging Guide</title>
+<meta name="description" content="Protein, exercise and small diet changes for Gujarati adults 50+ — Gujarati and English.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Gujarati:wght@400;600;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fbf8f3;--card:#fff;--ink:#1f2328;--muted:#5b6270;--line:#e6dfd3;--accent:#b4531f;--accent-soft:#fbeadf;--good:#2f7d4f;--good-soft:#e5f3ea;--warn:#a5670a;--warn-soft:#fdf1dc;--bad:#b3261e;--bad-soft:#fbe4e2}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#16181c;--card:#1f2228;--ink:#eceae6;--muted:#a7adb8;--line:#343842;--accent:#f0915c;--accent-soft:#3a2a20;--good:#6cc993;--good-soft:#1e3328;--warn:#f0b75a;--warn-soft:#3a2f1c;--bad:#f28b82;--bad-soft:#3d2321}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.6 "Noto Sans Gujarati","Inter",system-ui,sans-serif}
+[data-lang="gu"] .en,[data-lang="en"] .gu{display:none!important}
+.wrap{max-width:820px;margin:0 auto;padding:0 16px 64px}
+header{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.bar{max-width:820px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.bar b{font-size:17px}
+.toggle{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden}
+.toggle button{font:inherit;font-size:15px;padding:6px 14px;border:0;background:transparent;color:var(--ink);cursor:pointer}
+.toggle button[aria-pressed="true"]{background:var(--accent);color:#fff}
+h1{font-size:30px;line-height:1.25;margin:28px 0 8px}
+h2{font-size:24px;margin:0 0 6px;display:flex;gap:10px;align-items:baseline}
+h2 .n{flex:none;display:inline-grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--accent);color:#fff;font-size:17px}
+h3{font-size:19px;margin:18px 0 6px}
+.lead{color:var(--muted);margin:0 0 18px}
+section{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;margin:18px 0}
+.why{color:var(--muted);font-size:16px;margin:4px 0 12px}
+nav.toc{display:grid;gap:8px;margin:18px 0}
+nav.toc a{display:flex;gap:10px;align-items:center;padding:12px 14px;border-radius:12px;background:var(--card);border:1px solid var(--line);color:var(--ink);text-decoration:none}
+nav.toc a span.n{flex:none;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent);font-weight:700}
+ol.steps,ul.list{padding-left:22px;margin:8px 0}
+ol.steps>li,ul.list>li{margin:8px 0}
+.pill{display:inline-block;font-size:14px;padding:2px 10px;border-radius:999px;background:var(--accent-soft);color:var(--accent);font-weight:600}
+.box{border-radius:12px;padding:12px 14px;margin:12px 0}
+.box.good{background:var(--good-soft)}.box.warn{background:var(--warn-soft)}.box.bad{background:var(--bad-soft)}
+table{width:100%;border-collapse:collapse;font-size:16px}
+th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-weight:600}
+td.num{white-space:nowrap;font-weight:700}
+.tablewrap{overflow-x:auto}
+.calc{display:grid;gap:12px;grid-template-columns:1fr 1fr}
+.calc label{display:grid;gap:4px;font-size:16px}
+.calc .full{grid-column:1/-1}
+input[type=number],select{font:inherit;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);width:100%}
+.check{display:flex!important;gap:10px;align-items:flex-start;grid-column:1/-1}
+.check input{width:22px;height:22px;margin-top:3px;flex:none}
+.result{margin-top:16px;padding:16px;border-radius:12px;background:var(--accent-soft)}
+.result .big{font-size:32px;font-weight:700;color:var(--accent);line-height:1.2}
+.ex{display:grid;gap:10px}
+.ex .card{border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.ex .card b{display:block}
+.ex .dose{font-size:15px;color:var(--accent);font-weight:600}
+.swap{display:grid;grid-template-columns:1fr auto 1fr;gap:8px;align-items:center;padding:8px 0;border-bottom:1px solid var(--line)}
+.swap .arrow{color:var(--accent);font-weight:700}
+footer{color:var(--muted);font-size:15px;margin-top:24px}
+@media (max-width:560px){body{font-size:17px}h1{font-size:25px}.calc{grid-template-columns:1fr}section{padding:16px}}
+@media print{header{position:static}.toggle{display:none}section{break-inside:avoid}}
+</style>
+</head>
+<body>
+<header><div class="bar">
+  <b><span class="gu">સ્વસ્થ ઉંમર માર્ગદર્શિકા</span><span class="en">Healthy Aging Guide</span></b>
+  <div class="toggle" role="group" aria-label="Language">
+    <button type="button" data-set="gu" aria-pressed="true">ગુજરાતી</button>
+    <button type="button" data-set="en" aria-pressed="false">English</button>
+  </div>
+</div></header>
+
+<div class="wrap">
+<h1><span class="gu">50 પછી મજબૂત, સ્વતંત્ર અને સ્વસ્થ રહેવા માટે</span><span class="en">Staying strong, independent and healthy after 50</span></h1>
+<p class="lead"><span class="gu">ગુજરાતી પરિવારો માટે સરળ માર્ગદર્શિકા: કેટલું પ્રોટીન, કઈ કસરત, અને ખોરાકમાં કયા નાના ફેરફાર સૌથી વધુ ફાયદો આપે. <b>સૌથી મહત્વનું પહેલું</b> – ઉપરથી નીચે ક્રમમાં વાંચો.</span><span class="en">A simple guide for Gujarati families: how much protein, which exercise, and which small food changes give the most benefit. <b>Most important first</b> — read top to bottom.</span></p>
+
+<div class="box warn"><span class="gu">આ સામાન્ય માહિતી છે, તમારા ડૉક્ટરની સલાહની જગ્યાએ નહીં. કિડનીની બીમારી, હૃદયની બીમારી, ઇન્સ્યુલિન કે ડાયાબિટીસની ગોળી, કે હાડકાં ભાંગ્યાં હોય તો નવી કસરત કે ખોરાક શરૂ કરતાં પહેલાં ડૉક્ટરને પૂછો.</span><span class="en">This is general information, not a replacement for your doctor. If you have kidney disease, heart disease, take insulin or diabetes pills, or have had a fracture, check with your doctor before starting new exercise or diet changes.</span></div>
+
+<nav class="toc" aria-label="Contents">
+  <a href="#move"><span class="n">1</span><span><span class="gu">રોજ ચાલો – સૌથી મોટો ફાયદો</span><span class="en">Walk every day — the biggest win</span></span></a>
+  <a href="#strength"><span class="n">2</span><span><span class="gu">અઠવાડિયે 2 દિવસ તાકાતની કસરત</span><span class="en">Strength exercise 2 days a week</span></span></a>
+  <a href="#protein"><span class="n">3</span><span><span class="gu">દરેક ભોજનમાં પ્રોટીન – તમારું માપ ગણો</span><span class="en">Protein at every meal — calculate yours</span></span></a>
+  <a href="#food"><span class="n">4</span><span><span class="gu">ખોરાકમાં 8 નાના ફેરફાર, ક્રમમાં</span><span class="en">8 small food changes, in order</span></span></a>
+  <a href="#balance"><span class="n">5</span><span><span class="gu">બેલેન્સ અને હાડકાં – પડી જવાથી બચો</span><span class="en">Balance and bones — prevent falls</span></span></a>
+  <a href="#checks"><span class="n">6</span><span><span class="gu">ડૉક્ટર પાસે કઈ તપાસ કરાવવી</span><span class="en">Which checkups to ask your doctor for</span></span></a>
+</nav>
+
+<section id="move">
+<h2><span class="n">1</span><span><span class="gu">રોજ ચાલો</span><span class="en">Walk every day</span></span></h2>
+<p class="why"><span class="gu">કેમ પહેલું: હૃદયરોગ, ડાયાબિટીસ, બીપી, ડિપ્રેશન અને વહેલું મૃત્યુ – બધાનું જોખમ નિયમિત ચાલવાથી ઘટે છે. કોઈ સાધન જોઈએ નહીં. સાવ બેઠાડુ જીવનમાંથી થોડું ચાલવા તરફ જવું એ સૌથી મોટો ફાયદો છે.</span><span class="en">Why first: regular walking lowers the risk of heart disease, diabetes, high blood pressure, depression and early death. It needs no equipment. Going from sitting most of the day to some walking is the single largest gain.</span></p>
+<ol class="steps">
+<li><span class="gu"><b>શરૂઆત:</b> રોજ 10 મિનિટ, વાત કરી શકાય એટલી ઝડપે.</span><span class="en"><b>Start:</b> 10 minutes a day, at a pace where you can still talk.</span></li>
+<li><span class="gu"><b>દર 2 અઠવાડિયે 5 મિનિટ વધારો</b>, રોજ 30 મિનિટ સુધી (અઠવાડિયે 150 મિનિટ). ત્રણ વાર 10 મિનિટ પણ એટલું જ સારું.</span><span class="en"><b>Add 5 minutes every 2 weeks</b> until you reach 30 minutes a day (150 minutes a week). Three 10-minute walks count just as much.</span></li>
+<li><span class="gu"><b>ભોજન પછી 10 મિનિટ ચાલો</b>, ખાસ કરીને રાત્રે – લોહીમાં સાકર ઓછી વધે છે.</span><span class="en"><b>Walk 10 minutes after meals</b>, especially dinner — blood sugar rises less.</span></li>
+<li><span class="gu"><b>પગલાં:</b> 60 પછી રોજ લગભગ 6,000–8,000 પગલાંથી મોટાભાગનો ફાયદો મળી જાય છે. 2,000 થી શરૂઆત કરો તો પણ દરેક 1,000 વધારે પગલાં ફાયદો આપે.</span><span class="en"><b>Steps:</b> after 60, about 6,000–8,000 steps a day captures most of the benefit. Even if you start at 2,000, every extra 1,000 helps.</span></li>
+</ol>
+<div class="box good"><span class="gu"><b>ટેવ બનાવવાની રીત:</b> ચાલવાને પહેલેથી કરતા કામ સાથે જોડો – સવારની ચા પછી, કે રાતના જમણ પછી. રોજ એ જ સમય.</span><span class="en"><b>How to make it stick:</b> tie the walk to something you already do — after morning tea, or after dinner. Same time every day.</span></div>
+</section>
+
+<section id="strength">
+<h2><span class="n">2</span><span><span class="gu">અઠવાડિયે 2 દિવસ તાકાતની કસરત</span><span class="en">Strength exercise, 2 days a week</span></span></h2>
+<p class="why"><span class="gu">કેમ: 50 પછી દર દાયકે સ્નાયુ ઘટે છે. મજબૂત પગ એટલે ખુરશીમાંથી ઊઠવું, દાદર ચઢવા, પડી ન જવું – એટલે કે સ્વતંત્રતા. તાકાતની કસરત ડાયાબિટીસ સુધારે, હાડકાં મજબૂત કરે અને બીપી ઘટાડે. ચાલવું આ કામ કરી શકતું નથી.</span><span class="en">Why: muscle shrinks every decade after 50. Strong legs mean getting out of a chair, climbing stairs and not falling — in other words, independence. Strength training improves diabetes, builds bone and lowers blood pressure. Walking alone cannot do this.</span></p>
+<p><span class="gu"><b>બે દિવસ વચ્ચે આરામ</b> (જેમ કે સોમ અને ગુરુ). લગભગ 30 મિનિટ. ડમ્બેલ ન હોય તો પાણી ભરેલી બોટલ: 1 લિટર ≈ 1 કિલો (2 lb), 1 ગેલન જગ ≈ 4 કિલો (8 lb).</span><span class="en"><b>Rest a day in between</b> (for example Monday and Thursday). About 30 minutes. No dumbbells? Use water bottles: 1 litre ≈ 1 kg (2 lb), a 1-gallon jug ≈ 4 kg (8 lb).</span></p>
+<h3><span class="gu">6 કસરત – આખા શરીર માટે</span><span class="en">6 exercises — the whole body</span></h3>
+<div class="ex">
+<div class="card"><b><span class="gu">1. ખુરશીમાંથી ઊઠ-બેસ</span><span class="en">1. Chair sit-to-stand</span></b><span class="dose"><span class="gu">2–3 સેટ × 8–12</span><span class="en">2–3 sets × 8–12</span></span><br><span class="gu">હાથ છાતી પર, હાથના ટેકા વગર ઊભા થાઓ, ધીમે બેસો. સહેલું લાગે તો છાતી પાસે વજન પકડો. <b>સૌથી મહત્વની કસરત.</b></span><span class="en">Arms across your chest, stand up without using your hands, sit down slowly. When easy, hold a weight at your chest. <b>The most important exercise.</b></span></div>
+<div class="card"><b><span class="gu">2. પ્લેટફોર્મ પુશ-અપ</span><span class="en">2. Kitchen-counter push-up</span></b><span class="dose"><span class="gu">2–3 સેટ × 8–12</span><span class="en">2–3 sets × 8–12</span></span><br><span class="gu">હાથ રસોડાના પ્લેટફોર્મ પર, શરીર સીધું, છાતી પ્લેટફોર્મ તરફ લઈ જાઓ અને પાછા. સહેલું થાય તો નીચી જગ્યા (દાદરનું પગથિયું).</span><span class="en">Hands on the kitchen counter, body straight, lower your chest toward it and push back. When easy, use something lower (a stair step).</span></div>
+<div class="card"><b><span class="gu">3. એક હાથે વજન ખેંચવું</span><span class="en">3. One-arm row</span></b><span class="dose"><span class="gu">2–3 સેટ × 8–12, દરેક હાથ</span><span class="en">2–3 sets × 8–12 each arm</span></span><br><span class="gu">એક હાથ પ્લેટફોર્મ પર, પીઠ સીધી. બોટલ કમર તરફ ખેંચો, ધીમે નીચે. ટટ્ટાર મુદ્રા માટે ઉત્તમ.</span><span class="en">One hand on the counter, back straight. Pull the bottle toward your waist, lower slowly. Great for upright posture.</span></div>
+<div class="card"><b><span class="gu">4. પગથિયું ચઢવું</span><span class="en">4. Step-up</span></b><span class="dose"><span class="gu">2–3 સેટ × 8–12, દરેક પગ</span><span class="en">2–3 sets × 8–12 each leg</span></span><br><span class="gu">દાદરનું પહેલું પગથિયું, <b>રેલિંગ હંમેશાં પકડો</b>. ઉપર ચઢો, ધીમે ઊતરો.</span><span class="en">Bottom stair, <b>always hold the rail</b>. Step up, step down slowly.</span></div>
+<div class="card"><b><span class="gu">5. પીઠ સીધી રાખી આગળ ઝૂકવું</span><span class="en">5. Hip hinge (bend from the hips)</span></b><span class="dose"><span class="gu">2–3 સેટ × 8–12</span><span class="en">2–3 sets × 8–12</span></span><br><span class="gu">બોટલ હાથમાં, કુલા પાછળ ધકેલો, ઘૂંટણ થોડા વાળો, પીઠ સીધી – ઘૂંટણ સુધી જ નીચે, પછી ઊભા. જમીન પરથી કંઈ ઉપાડવાની સાચી રીત પણ આ જ છે.</span><span class="en">Bottles in hand, push your hips back, knees slightly bent, back straight — down to knee height only, then stand. This is also the right way to lift anything from the floor.</span></div>
+<div class="card"><b><span class="gu">6. વજન લઈને ચાલવું</span><span class="en">6. Carry walk</span></b><span class="dose"><span class="gu">3 વખત × 30 સેકન્ડ</span><span class="en">3 times × 30 seconds</span></span><br><span class="gu">બંને હાથમાં થેલી કે જગ, ટટ્ટાર ચાલો. પકડ અને ખભાની તાકાત – શાકભાજીની થેલી ઉપાડવાની તાલીમ.</span><span class="en">A bag or jug in each hand, walk tall. Grip and shoulder strength — practice for carrying groceries.</span></div>
+</div>
+<h3><span class="gu">વજન ક્યારે વધારવું – એક જ નિયમ</span><span class="en">When to go heavier — one rule</span></h3>
+<p><span class="gu">છેલ્લી 2 વખત અઘરી લાગવી જોઈએ, પણ રીત બરાબર રહેવી જોઈએ. બધા સેટ 12 સુધી સહેલાઈથી થાય એટલે પછીના વખતે થોડું વધુ વજન (½–1 કિલો). <b>ભારે વજન જ હાડકાં અને સ્નાયુ બનાવે છે</b> – હળવું વજન કાયમ રાખવાથી ફાયદો અટકી જાય.</span><span class="en">The last 2 reps should feel hard, but your form must stay good. When every set reaches 12 comfortably, use a little more weight next time (½–1 kg). <b>Heavier weight is what builds bone and muscle</b> — staying light forever stalls the benefit.</span></p>
+<div class="box bad"><span class="gu"><b>સલામતી:</b> વજન ઉપાડતી વખતે શ્વાસ બહાર કાઢો, શ્વાસ રોકશો નહીં. છાતીમાં દુખાવો, ચક્કર, અસામાન્ય હાંફ કે ધબકારા લાગે તો તરત બંધ કરો અને ડૉક્ટરને બતાવો. ઘરે બીપી 160/100 કે વધુ હોય તો તે દિવસે તાકાતની કસરત નહીં; 180/110 કે વધુ હોય તો કોઈ કસરત નહીં.</span><span class="en"><b>Safety:</b> breathe out as you lift; never hold your breath. Stop at once for chest pain, dizziness, unusual breathlessness or palpitations, and see your doctor. If home BP is 160/100 or higher, skip strength that day; at 180/110 or higher, no exercise.</span></div>
+</section>
+
+<section id="protein">
+<h2><span class="n">3</span><span><span class="gu">દરેક ભોજનમાં પ્રોટીન</span><span class="en">Protein at every meal</span></span></h2>
+<p class="why"><span class="gu">કેમ: ઉંમર સાથે સ્નાયુને બનવા માટે વધુ પ્રોટીન જોઈએ. ગુજરાતી શાકાહારી ભોજન – ખાસ કરીને નાસ્તો (પૌંઆ, થેપલાં, ખાખરા, ચા) – મોટેભાગે પ્રોટીનમાં ઓછું હોય છે. તાકાતની કસરત + પૂરતું પ્રોટીન = સ્નાયુ ટકે.</span><span class="en">Why: aging muscle needs more protein to rebuild. Gujarati vegetarian meals — especially breakfast (poha, thepla, khakhra, tea) — are usually low in protein. Strength exercise plus enough protein is what keeps muscle.</span></p>
+<div class="calc">
+<label><span><span class="gu">વજન</span><span class="en">Weight</span></span><input id="w" type="number" inputmode="decimal" min="25" max="250" placeholder="60"></label>
+<label><span><span class="gu">એકમ</span><span class="en">Unit</span></span><select id="u"><option value="kg">kg</option><option value="lb">lb</option></select></label>
+<label><span><span class="gu">ઉંમર</span><span class="en">Age</span></span><input id="a" type="number" inputmode="numeric" min="40" max="105" placeholder="65"></label>
+<label><span><span class="gu">ઊંચાઈ (સેમી, વૈકલ્પિક)</span><span class="en">Height (cm, optional)</span></span><input id="h" type="number" inputmode="numeric" min="120" max="210" placeholder="160"></label>
+<label class="check"><input id="lift" type="checkbox"><span><span class="gu">હું અઠવાડિયે 2+ દિવસ તાકાતની કસરત કરું છું (કે શરૂ કરવાનો છું)</span><span class="en">I do (or will start) strength exercise 2+ days a week</span></span></label>
+<label class="check"><input id="ckd" type="checkbox"><span><span class="gu">મને કિડનીની બીમારી છે (eGFR 60થી ઓછો) અથવા ડૉક્ટરે પ્રોટીન ઓછું લેવા કહ્યું છે</span><span class="en">I have kidney disease (eGFR below 60) or my doctor told me to limit protein</span></span></label>
+</div>
+<div class="result" id="out" aria-live="polite"><span class="gu">ઉપર વજન અને ઉંમર લખો.</span><span class="en">Enter your weight and age above.</span></div>
+
+<h3><span class="gu">ગુજરાતી ખોરાકમાં પ્રોટીન કેટલું?</span><span class="en">How much protein is in Gujarati foods?</span></h3>
+<p class="why"><span class="gu">લગભગ આંકડા. દરેક ભોજનમાં ઓછામાં ઓછી એક "15+ ગ્રામ" વાળી વસ્તુ, અથવા બે નાની વસ્તુ.</span><span class="en">Approximate figures. Aim for at least one "15 g+" item at each meal, or two smaller ones.</span></p>
+<div class="tablewrap"><table>
+<thead><tr><th><span class="gu">ખોરાક</span><span class="en">Food</span></th><th><span class="gu">માપ</span><span class="en">Amount</span></th><th><span class="gu">પ્રોટીન</span><span class="en">Protein</span></th></tr></thead>
+<tbody>
+<tr><td><span class="gu">ઘટ્ટ ગ્રીક દહીં</span><span class="en">Greek yogurt</span></td><td><span class="gu">1 કપ</span><span class="en">1 cup</span></td><td class="num">18–20 g</td></tr>
+<tr><td><span class="gu">ટોફુ (કડક)</span><span class="en">Tofu, firm</span></td><td>150 g</td><td class="num">18–24 g</td></tr>
+<tr><td><span class="gu">સોયાબીનની વડી (ચંક્સ)</span><span class="en">Soya chunks</span></td><td><span class="gu">30 g સૂકી</span><span class="en">30 g dry</span></td><td class="num">15 g</td></tr>
+<tr><td><span class="gu">ઘટ્ટ કઠોળ – મગ, ચણા, રાજમા, ચોળા</span><span class="en">Thick beans — moong, chana, rajma, chora</span></td><td><span class="gu">1 કપ રાંધેલું</span><span class="en">1 cup cooked</span></td><td class="num">12–15 g</td></tr>
+<tr><td><span class="gu">પનીર</span><span class="en">Paneer</span></td><td>50 g</td><td class="num">9 g</td></tr>
+<tr><td><span class="gu">ચણાના લોટનો પૂડલો</span><span class="en">Besan chilla</span></td><td><span class="gu">1 (40 g લોટ)</span><span class="en">1 (40 g flour)</span></td><td class="num">9 g</td></tr>
+<tr><td><span class="gu">સામાન્ય દહીં / દૂધ</span><span class="en">Regular yogurt / milk</span></td><td><span class="gu">1 કપ</span><span class="en">1 cup</span></td><td class="num">8 g</td></tr>
+<tr><td><span class="gu">ફણગાવેલા મગ</span><span class="en">Sprouted moong</span></td><td><span class="gu">1 કપ</span><span class="en">1 cup</span></td><td class="num">7 g</td></tr>
+<tr><td><span class="gu">શેકેલા દાળિયા / સીંગ</span><span class="en">Roasted chana / peanuts</span></td><td><span class="gu">1 મુઠ્ઠી (30 g)</span><span class="en">1 handful (30 g)</span></td><td class="num">6–7 g</td></tr>
+<tr><td><span class="gu">ઈંડું (જો ખાતા હો)</span><span class="en">Egg (if you eat them)</span></td><td><span class="gu">1</span><span class="en">1</span></td><td class="num">6 g</td></tr>
+<tr><td><span class="gu">પાતળી ગુજરાતી દાળ</span><span class="en">Thin Gujarati dal</span></td><td><span class="gu">1 વાટકી</span><span class="en">1 bowl</span></td><td class="num">4–6 g</td></tr>
+<tr><td><span class="gu">ઢોકળાં / હાંડવો</span><span class="en">Dhokla / handvo</span></td><td><span class="gu">2 ટુકડા</span><span class="en">2 pieces</span></td><td class="num">4–5 g</td></tr>
+<tr><td><span class="gu">રોટલી / ભાખરી</span><span class="en">Rotli / bhakhri</span></td><td><span class="gu">1</span><span class="en">1</span></td><td class="num">3 g</td></tr>
+<tr><td><span class="gu">છાશ</span><span class="en">Chaas</span></td><td><span class="gu">1 ગ્લાસ</span><span class="en">1 glass</span></td><td class="num">2–3 g</td></tr>
+<tr><td><span class="gu">પૌંઆ, ઉપમા, ખાખરા, ભાત</span><span class="en">Poha, upma, khakhra, rice</span></td><td><span class="gu">1 પ્લેટ</span><span class="en">1 plate</span></td><td class="num">3–5 g</td></tr>
+</tbody></table></div>
+<div class="box good"><span class="gu"><b>પાતળી દાળ ભ્રમ આપે છે:</b> વાટકી ભરેલી લાગે, પણ મોટાભાગે પાણી છે. ઘટ્ટ દાળ, કઠોળ કે દહીં ઉમેરવાથી ખરો ફરક પડે.</span><span class="en"><b>Thin dal is deceptive:</b> the bowl looks full, but it is mostly water. Thicker dal, beans or yogurt make the real difference.</span></div>
+</section>
+
+<section id="food">
+<h2><span class="n">4</span><span><span class="gu">ખોરાકમાં 8 નાના ફેરફાર</span><span class="en">8 small food changes</span></span></h2>
+<p class="why"><span class="gu">બધું એકસાથે નહીં. <b>પહેલો ફેરફાર 2–3 અઠવાડિયાં કરો</b>, ટેવ પડે પછી બીજો. ઉપરના ફેરફાર સૌથી વધુ ફાયદો આપે છે. કંઈ સાવ બંધ કરવાનું નથી – માપ મહત્વનું છે.</span><span class="en">Not all at once. <b>Do the first change for 2–3 weeks</b>, then add the next once it is a habit. The ones at the top give the most benefit. Nothing is banned — portions matter.</span></p>
+<ol class="steps">
+<li><span class="gu"><b>નાસ્તામાં પ્રોટીન ઉમેરો.</b> પૌંઆ-થેપલાં-ખાખરા સાથે 1 વાટકી દહીં, ફણગાવેલા મગ, પનીર, કે પૂડલો. દિવસનો સૌથી ઓછો પ્રોટીનવાળો ભોજન સુધારવાથી સૌથી મોટો ફરક.</span><span class="en"><b>Add protein to breakfast.</b> With poha, thepla or khakhra, add a bowl of yogurt, sprouted moong, paneer or a besan chilla. Fixing the lowest-protein meal of the day makes the biggest difference.</span></li>
+<li><span class="gu"><b>અડધી થાળી શાક-સલાડ, રોટલી-ભાત એક ઓછી.</b> 3 રોટલીને બદલે 2, કે રોટલી અને ભાત બંનેને બદલે એક. ડાયાબિટીસ, વજન અને કોલેસ્ટ્રોલ – ત્રણેય માટે.</span><span class="en"><b>Half the plate vegetables and salad; one less roti or rice.</b> 2 rotis instead of 3, or rotis <i>or</i> rice rather than both. Helps diabetes, weight and cholesterol at once.</span></li>
+<li><span class="gu"><b>ક્રમ બદલો: પહેલાં શાક-દાળ-સલાડ, પછી રોટલી-ભાત.</b> એ જ ખોરાક, પણ લોહીમાં સાકર ઓછી વધે. કોઈ ખર્ચ નહીં.</span><span class="en"><b>Change the order: vegetables, dal and salad first, then roti and rice.</b> Same food, but blood sugar rises less. Costs nothing.</span></li>
+<li><span class="gu"><b>મીઠું ઓછું.</b> દક્ષિણ એશિયન લોકોમાં બીપી અને સ્ટ્રોક વધુ છે. પાપડ, અથાણું, ફરસાણ અને સંચળમાં ઘણું મીઠું છે. રસોઈમાં ધીમે ધીમે ઘટાડો – 3–4 અઠવાડિયામાં જીભ ટેવાઈ જાય છે. લીંબુ, આદુ, જીરું વધારો. આખા દિવસમાં કુલ 1 ચમચીથી ઓછું.</span><span class="en"><b>Less salt.</b> South Asians have higher rates of high BP and stroke. Papad, pickle, farsan and sanchal carry a lot of salt. Reduce it gradually in cooking — taste adapts in 3–4 weeks. Use more lemon, ginger and cumin. Under 1 teaspoon a day in total.</span></li>
+<li><span class="gu"><b>તેલ-ઘી ચમચીથી માપો.</b> વઘારમાં તેલ સીધું બોટલમાંથી નહીં. એક વ્યક્તિ માટે આખા દિવસમાં 3–4 ચમચી તેલ, 1 ચમચી ઘી. તળેલું ફરસાણ અઠવાડિયે 1–2 વાર, શેકેલું કે બાફેલું (ઢોકળાં, ખાંડવી) વધુ.</span><span class="en"><b>Measure oil and ghee with a spoon.</b> Don't pour from the bottle into the vaghar. Per person, 3–4 teaspoons of oil and 1 teaspoon of ghee a day. Fried farsan once or twice a week; steamed or roasted (dhokla, khandvi) more often.</span></li>
+<li><span class="gu"><b>ખાંડ અડધી.</b> ચામાં ખાંડ અડધી કરો, પછી ફરી અડધી. દાળ-શાકમાં ગોળ ઓછો. મીઠાઈ નાનો ટુકડો, તહેવાર સિવાય અઠવાડિયે 1–2 વાર. ફળનો રસ નહીં – આખું ફળ.</span><span class="en"><b>Halve the sugar.</b> Halve the sugar in tea, then halve it again. Less jaggery in dal and shaak. Sweets as a small piece, once or twice a week outside festivals. Whole fruit, not juice.</span></li>
+<li><span class="gu"><b>આખાં અનાજ અને રેસા.</b> મેંદાને બદલે ઘઉં, બાજરી, જુવાર. અઠવાડિયે 3–4 વાર આખાં કઠોળ. કોલેસ્ટ્રોલ વધુ હોય તો રોજ 1 ચમચી ઇસબગુલ કે ઓટ્સ.</span><span class="en"><b>Whole grains and fibre.</b> Whole wheat, bajra and jowar instead of maida. Whole beans 3–4 times a week. If cholesterol is high, 1 teaspoon of isabgol or a bowl of oats daily.</span></li>
+<li><span class="gu"><b>હાડકાં માટે કેલ્શિયમ ખોરાકમાંથી.</b> રોજ 2–3 વાર દૂધ-દહીં, 1 ચમચી તલ, ક્યારેક નાગલી (રાગી). કેલ્શિયમની ગોળી ડૉક્ટરને પૂછીને જ.</span><span class="en"><b>Calcium from food for bones.</b> Dairy 2–3 times a day, a teaspoon of sesame, ragi (nagli) sometimes. Calcium tablets only after asking your doctor.</span></li>
+</ol>
+
+<h3><span class="gu">સહેલા બદલાવ</span><span class="en">Easy swaps</span></h3>
+<div class="swap"><span><span class="gu">ચા સાથે ખાખરા/બિસ્કિટ</span><span class="en">Khakhra/biscuits with tea</span></span><span class="arrow">→</span><span><span class="gu">ચા સાથે શેકેલા દાળિયા કે સીંગ</span><span class="en">Roasted chana or peanuts with tea</span></span></div>
+<div class="swap"><span><span class="gu">ફાફડા-જલેબી</span><span class="en">Fafda-jalebi</span></span><span class="arrow">→</span><span><span class="gu">ઢોકળાં + દહીં</span><span class="en">Dhokla + yogurt</span></span></div>
+<div class="swap"><span><span class="gu">ખાલી પૌંઆ</span><span class="en">Plain poha</span></span><span class="arrow">→</span><span><span class="gu">પૌંઆમાં વટાણા-સીંગ + 1 વાટકી દહીં</span><span class="en">Poha with peas and peanuts + a bowl of yogurt</span></span></div>
+<div class="swap"><span><span class="gu">પાતળી દાળ + 3 રોટલી</span><span class="en">Thin dal + 3 rotis</span></span><span class="arrow">→</span><span><span class="gu">ઘટ્ટ દાળ/કઠોળ + 2 રોટલી + સલાડ</span><span class="en">Thick dal or beans + 2 rotis + salad</span></span></div>
+<div class="swap"><span><span class="gu">ફળનો રસ</span><span class="en">Fruit juice</span></span><span class="arrow">→</span><span><span class="gu">આખું ફળ</span><span class="en">Whole fruit</span></span></div>
+<div class="swap"><span><span class="gu">રાત્રે મોડું, ભારે જમણ</span><span class="en">Late, heavy dinner</span></span><span class="arrow">→</span><span><span class="gu">વહેલું, હળવું જમણ + 10 મિનિટ ચાલવું</span><span class="en">Earlier, lighter dinner + a 10-minute walk</span></span></div>
+
+<div class="box warn"><span class="gu"><b>શાકાહારી હો તો:</b> વિટામિન B12 ઓછું થવું સામાન્ય છે (ખાસ કરીને ડાયાબિટીસની મેટફોર્મિન ગોળી સાથે). વિટામિન D પણ ઘણીવાર ઓછું હોય. બંનેની તપાસ કરાવો; ગોળી ડૉક્ટર કહે એ માત્રામાં.</span><span class="en"><b>If you are vegetarian:</b> low vitamin B12 is common (especially with the diabetes pill metformin). Vitamin D is often low too. Get both checked; take supplements at the dose your doctor advises.</span></div>
+</section>
+
+<section id="balance">
+<h2><span class="n">5</span><span><span class="gu">બેલેન્સ અને હાડકાં</span><span class="en">Balance and bones</span></span></h2>
+<p class="why"><span class="gu">કેમ: મોટી ઉંમરે થાપાનું હાડકું ભાંગવાથી ઘણા લોકો સ્વતંત્રતા ગુમાવે છે. રોજ 5 મિનિટ બેલેન્સની તાલીમથી પડવાનું જોખમ લગભગ ત્રીજા ભાગનું ઘટે છે.</span><span class="en">Why: a hip fracture in later life costs many people their independence. Five minutes of daily balance practice cuts the risk of falls by about a third.</span></p>
+<h3><span class="gu">રોજ 5 મિનિટ – રસોડાના પ્લેટફોર્મ પાસે</span><span class="en">5 minutes a day — beside the kitchen counter</span></h3>
+<ul class="list">
+<li><span class="gu"><b>એક પગ પર ઊભા રહો:</b> 30 સેકન્ડ, દરેક પગ, 2 વખત. પહેલાં પ્લેટફોર્મ પકડીને, પછી હાથ હવામાં. દાંત સાફ કરતી વખતે પણ થઈ શકે.</span><span class="en"><b>Stand on one leg:</b> 30 seconds each leg, twice. First holding the counter, then with your hand hovering. You can do this while brushing your teeth.</span></li>
+<li><span class="gu"><b>એક પગ બીજાની આગળ:</b> એડી અંગૂઠાને અડે એમ ઊભા રહો, 30 સેકન્ડ.</span><span class="en"><b>Heel-to-toe stand:</b> one foot directly in front of the other, 30 seconds.</span></li>
+<li><span class="gu"><b>એડી-અંગૂઠો ચાલ:</b> પ્લેટફોર્મની બાજુમાં 10 પગલાં, દોરડા પર ચાલતા હો એમ.</span><span class="en"><b>Heel-to-toe walk:</b> 10 steps along the counter, as if walking a rope.</span></li>
+<li><span class="gu"><b>એડી પછાડવી (હાડકાં માટે):</b> પંજા પર ઊંચા થઈ એડી મક્કમ રીતે નીચે પડવા દો. 10થી શરૂ કરી રોજ 50 સુધી. બૂટ પહેરીને.</span><span class="en"><b>Heel drops (for bone):</b> rise onto your toes, then let your heels drop firmly. Start at 10 and build to 50 a day. Wear shoes.</span></li>
+</ul>
+<div class="box bad"><span class="gu"><b>ઓસ્ટિયોપોરોસિસ (હાડકાં પોલાં) હોય તો:</b> સિટ-અપ, આગળ નમીને પગના અંગૂઠા અડવા, વજન સાથે કમર મરોડવી, અને હલાસન જેવાં ઊંડાં આગળ નમવાનાં આસન ન કરો – કરોડનું હાડકું ભાંગવાનું જોખમ. તાકાતની કસરત ચાલુ રાખો; પીઠનું હાડકું ભાંગ્યું હોય તો એડી પછાડતાં પહેલાં ડૉક્ટરને પૂછો.</span><span class="en"><b>If you have osteoporosis:</b> avoid sit-ups, toe touches, twisting with weights, and deep forward-bending yoga poses like plough — they risk a spine fracture. Keep doing strength exercise; if you have had a spine fracture, ask your doctor before heel drops.</span></div>
+<div class="box good"><span class="gu"><b>ઘર સલામત બનાવો:</b> રાત્રે બાથરૂમ સુધી લાઈટ, બાથરૂમમાં પકડવાનો હેન્ડલ, ઢીલી શેતરંજી દૂર, દાદર પર બંને બાજુ રેલિંગ, અને વર્ષે એક વાર આંખની તપાસ.</span><span class="en"><b>Make the home safe:</b> a night light to the bathroom, grab bars in the bathroom, no loose rugs, rails on both sides of stairs, and a yearly eye check.</span></div>
+</section>
+
+<section id="checks">
+<h2><span class="n">6</span><span><span class="gu">ડૉક્ટર પાસે કઈ તપાસ</span><span class="en">Checkups to ask for</span></span></h2>
+<p class="why"><span class="gu">દક્ષિણ એશિયન લોકોમાં હૃદયરોગ અને ડાયાબિટીસ વહેલાં અને ઓછા વજને પણ થાય છે. એટલે તપાસ વહેલી અને નિયમિત.</span><span class="en">South Asians get heart disease and diabetes earlier, and at lower body weights. So check early and regularly.</span></p>
+<div class="tablewrap"><table>
+<thead><tr><th><span class="gu">તપાસ</span><span class="en">Test</span></th><th><span class="gu">કેટલી વાર</span><span class="en">How often</span></th><th><span class="gu">કેમ</span><span class="en">Why</span></th></tr></thead>
+<tbody>
+<tr><td><span class="gu">બીપી</span><span class="en">Blood pressure</span></td><td><span class="gu">ઘરે મહિને 1 વાર; ડૉક્ટર પાસે વર્ષે</span><span class="en">Monthly at home; yearly with doctor</span></td><td><span class="gu">130/80થી ઉપર હોય તો ડૉક્ટરને બતાવો</span><span class="en">Over 130/80: see your doctor</span></td></tr>
+<tr><td>HbA1c</td><td><span class="gu">વર્ષે 1 વાર</span><span class="en">Yearly</span></td><td><span class="gu">ડાયાબિટીસ અને પ્રી-ડાયાબિટીસ</span><span class="en">Diabetes and prediabetes</span></td></tr>
+<tr><td><span class="gu">કોલેસ્ટ્રોલ (LDL)</span><span class="en">Cholesterol (LDL)</span></td><td><span class="gu">વર્ષે 1 વાર</span><span class="en">Yearly</span></td><td><span class="gu">હૃદયરોગ અને સ્ટ્રોક; ગોળી જોઈએ કે નહીં તે ડૉક્ટર નક્કી કરે</span><span class="en">Heart disease and stroke; your doctor decides if you need a statin</span></td></tr>
+<tr><td><span class="gu">કિડની (ક્રિએટિનિન, eGFR, પેશાબમાં પ્રોટીન)</span><span class="en">Kidney (creatinine, eGFR, urine protein)</span></td><td><span class="gu">વર્ષે 1 વાર</span><span class="en">Yearly</span></td><td><span class="gu">ડાયાબિટીસ કે બીપી હોય તો ખાસ</span><span class="en">Especially with diabetes or high BP</span></td></tr>
+<tr><td><span class="gu">વિટામિન B12 અને D</span><span class="en">Vitamin B12 and D</span></td><td><span class="gu">એક વાર, પછી ડૉક્ટર કહે તેમ</span><span class="en">Once, then as advised</span></td><td><span class="gu">શાકાહારી અને ઓછો તડકો</span><span class="en">Vegetarian diet, little sun</span></td></tr>
+<tr><td><span class="gu">હાડકાંની ઘનતા (DXA)</span><span class="en">Bone density (DXA)</span></td><td><span class="gu">સ્ત્રીઓ 65+, પુરુષો 70+ (કે વહેલું, જોખમ હોય તો)</span><span class="en">Women 65+, men 70+ (earlier if at risk)</span></td><td><span class="gu">ઓસ્ટિયોપોરોસિસ વહેલું પકડવા</span><span class="en">Catch osteoporosis early</span></td></tr>
+</tbody></table></div>
+</section>
+
+<section>
+<h2><span><span class="gu">સારાંશ – એક અઠવાડિયું</span><span class="en">Summary — one week</span></span></h2>
+<ul class="list">
+<li><span class="gu"><b>રોજ:</b> 30 મિનિટ ચાલવું (ભોજન પછી 10 મિનિટ સૌથી સારું) + 5 મિનિટ બેલેન્સ.</span><span class="en"><b>Daily:</b> 30 minutes of walking (10 minutes after meals is best) + 5 minutes of balance.</span></li>
+<li><span class="gu"><b>સોમ અને ગુરુ:</b> 6 તાકાતની કસરત, 30 મિનિટ.</span><span class="en"><b>Monday and Thursday:</b> the 6 strength exercises, 30 minutes.</span></li>
+<li><span class="gu"><b>દરેક ભોજન:</b> એક પ્રોટીનવાળી વસ્તુ, અડધી થાળી શાક, પહેલાં શાક-દાળ પછી રોટલી-ભાત.</span><span class="en"><b>Every meal:</b> one protein food, half the plate vegetables, vegetables and dal before roti and rice.</span></li>
+<li><span class="gu"><b>દર 2–3 અઠવાડિયે:</b> યાદીમાંથી એક નવો ફેરફાર.</span><span class="en"><b>Every 2–3 weeks:</b> one new change from the list.</span></li>
+</ul>
+</section>
+
+<footer><span class="gu">આ માર્ગદર્શિકા PROT-AGE (વૃદ્ધો માટે પ્રોટીન), KDIGO 2024 (કિડની), "Strong, Steady and Straight" 2022 (હાડકાં), અને WHO 2020 (શારીરિક પ્રવૃત્તિ)ની ભલામણો પર આધારિત છે. તે સામાન્ય માહિતી છે – તમારી સારવાર માટે તમારા ડૉક્ટરની સલાહ લો.</span><span class="en">Based on PROT-AGE (protein in older adults), KDIGO 2024 (kidney disease), "Strong, Steady and Straight" 2022 (bone health) and WHO 2020 (physical activity) recommendations. General information only — ask your own doctor about your care.</span></footer>
+</div>
+
+<script>
+(function(){
+  var root=document.documentElement, btns=document.querySelectorAll('.toggle button');
+  function setLang(l){root.dataset.lang=l;root.lang=l;btns.forEach(function(b){b.setAttribute('aria-pressed',b.dataset.set===l)});try{localStorage.setItem('lang',l)}catch(e){}}
+  btns.forEach(function(b){b.addEventListener('click',function(){setLang(b.dataset.set)})});
+  try{var s=localStorage.getItem('lang');if(s==='en'||s==='gu')setLang(s)}catch(e){}
+
+  var $=function(id){return document.getElementById(id)}, out=$('out');
+  function calc(){
+    var w=parseFloat($('w').value), a=parseFloat($('a').value), h=parseFloat($('h').value);
+    if(!(w>0)||!(a>0)){out.innerHTML='<span class="gu">ઉપર વજન અને ઉંમર લખો.</span><span class="en">Enter your weight and age above.</span>';return}
+    var kg=$('u').value==='lb'?w/2.2046:w, ref=kg, adj=false;
+    if(h>0){var m=h/100,bmi=kg/(m*m);if(bmi>27){ref=25*m*m;adj=true}}
+    var lo,hi,gu,en;
+    if($('ckd').checked){lo=0.8;hi=0.9;gu='કિડનીની બીમારી: વધુ પ્રોટીન નહીં. આ શ્રેણી ડૉક્ટર/ડાયેટિશિયન સાથે પાકી કરો.';en='Kidney disease: do not go higher. Confirm this range with your doctor or dietitian.'}
+    else if($('lift').checked){lo=1.2;hi=a>=65?1.5:1.6;gu='તાકાતની કસરત સાથે સ્નાયુ બનાવવા માટે.';en='To build muscle alongside strength exercise.'}
+    else{lo=1.0;hi=1.2;gu=a>=65?'65 પછી સ્નાયુ ટકાવવા માટે ઓછામાં ઓછું આટલું.':'સ્નાયુ ટકાવવા માટે.';en=a>=65?'The minimum to protect muscle after 65.':'To protect muscle.'}
+    var L=Math.round(ref*lo/5)*5, H=Math.round(ref*hi/5)*5; if(H<=L)H=L+5;
+    var pm=Math.round((L+H)/2/3);
+    var adjG=adj?'<br>વધુ વજન હોવાથી ગણતરી તમારા સ્વસ્થ વજન (≈'+Math.round(ref)+' kg) પર કરી છે.':'';
+    var adjE=adj?'<br>Because of extra body weight, this uses your healthy weight (≈'+Math.round(ref)+' kg).':'';
+    out.innerHTML='<div class="big">'+L+'–'+H+' g</div>'+
+      '<span class="gu">રોજનું પ્રોટીન. એટલે <b>દરેક ભોજનમાં લગભગ '+pm+' ગ્રામ</b>, ત્રણ ભોજનમાં સરખું વહેંચીને. '+gu+adjG+'</span>'+
+      '<span class="en">protein per day. That is <b>about '+pm+' g at each meal</b>, spread evenly over three meals. '+en+adjE+'</span>';
+  }
+  ['w','u','a','h','lift','ckd'].forEach(function(id){$(id).addEventListener('input',calc);$(id).addEventListener('change',calc)});
+})();
+</script>
+</body>
+</html>
